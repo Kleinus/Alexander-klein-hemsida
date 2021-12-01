@@ -1,0 +1,1 @@
+jag har bara stött på ett problem som jag inte har lyckas lösa och det är att lägga till bilder brevid min slideshow i Hem sidan och jag skulle antagligen lyckas lösa detta problem men jag började med upgiften sent och har jobbar ycket med den och orkar inte nu mera med denna uppgift.

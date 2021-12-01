@@ -1,0 +1,319 @@
+/*det är till mina flexbox containrar*/
+.flexbox-container{
+  display: flex;
+  height: 100px;
+  background-color: #117A65;
+}
+
+/*det är till min varu vagn*/
+.shopping {
+  justify-content: center;
+  
+}
+* {
+  box-sizing: border-box;
+}
+
+
+/* det gör att bilden och texten är brevid varandra på om oss och kantaka oss  */
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+/* det skapar två columner som flytter vid varandra */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* det ränsar float efter kolumnerna */
+.row:after {
+  display: table;
+  clear: both;
+}
+
+
+/*det är till mina flexbox items*/
+.flexbox-item {
+  width: 200px;
+  height: 70px;
+  margin: 10px;
+  margin-top: 20px;
+  border: 0px solid rgb(255, 0, 221);
+  background-color: #117A65;
+  text-align: center;
+
+}
+
+/*det är till min logga till sidan*/
+.flexbox-item-0 {
+  margin-top: 0%;
+  border: none;
+}
+
+/*det r hur bred min varukorg container är*/
+.flexbox-item-5 {
+  width: 100px;
+
+}
+
+/*det är stilen på sidan */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+/*det är stilen till all min body*/
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/*det är för mina länkar och hur dom ska se ut*/
+ul {
+  list-style-type: none;
+}
+
+/*det är till allt inom <a>*/
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/*här är allt inom <h1> och <h2>*/
+h1, h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+ /*ger färg till texten i headern*/
+.navbar a {
+  color: rgb(255, 255, 255);
+
+}
+
+/*det gör så att de bler en vit linje under headern texten är man e över den med musen*/
+.navbar a:hover {
+  border-bottom: 2px #fff solid;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+* {box-sizing: border-box;}
+
+/*det är slide till classen "slideshow-container*/
+.slideshow-container {
+  max-height: 600px;
+  max-width: 600px;
+  position: sticky;
+  margin: auto;
+}
+
+/*Nästa och tillbaka knappen*/
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 1s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/*Nästa knappens position*/
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/*när man e över knapparna så blir sliden mörk grön*/
+.prev:hover, .next:hover {
+  background-color: #117A65;
+}
+
+/*texten*/
+.text {
+  color: #f3f3f3;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/*det är prickarna under slideshowen*/
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #117A65;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1s ease;
+}
+
+/*det är färgen på prickarna under slideshowen när man hoverar över dom */
+.active, .dot:hover {
+  background-color: #7e7e7e;
+}
+
+/*Fade animationen*/
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/*de gör fade animationen på mina slides*/
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*det är min conteiner för min slideshow*/
+.slideshow-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*det är container för mina produkter*/
+.flexbox-container-produkter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px;
+}
+.flexbox-item-produkter {
+  width: 25%;
+  height: 200px;
+  position: relative;
+  border: 0px solid #333;
+  margin-bottom: 5%;
+}
+
+/*här är flexboxen för varsin container*/
+.flexbox-item-produkter1 {
+  height: auto;
+  width: auto;
+}
+
+.flexbox-item-produkter2 {
+  height: auto;
+  width: auto;
+}
+
+.flexbox-item-produkter3 {
+  height: auto;
+  width: auto;
+}
+
+.flexbox-item-produkter4 {
+  height: auto;
+  width: auto;
+}
+
+.flexbox-item-produkter5 {
+  height: auto;
+  width: auto;
+}
+
+.flexbox-item-produkter6 {
+  height: auto;
+  width: auto;
+}
+
+.flexbox-item-produkter7 {
+  height: auto;
+  width: auto;
+}
+
+.flexbox-item-produkter8 {
+  height: auto;
+  width: auto;
+}
+
+.flexbox-item-produkter9 {
+  height: auto;
+  width: auto;
+}
+
+.flexbox-item-produkter10 {
+  height: auto;
+  width: auto;
+}
+
+.flexbox-item-produkter11 {
+  height: auto;
+  width: auto;
+}
+
+.flexbox-item-produkter12 {
+  height: auto;
+  width: auto;
+}
+
+.flexbox-item-produkter13 {
+  height: auto;
+  width: auto;
+}
+
